@@ -1,0 +1,33 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch ./index.jsp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSebastianDP/Appnodejs.git"
+  },
+  "keywords": [
+    "exports",
+    "module",
+    "require"
+  ],
+  "author": "Sebastian Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSebastianDP/Appnodejs/issues"
+  },
+  "homepage": "https://github.com/JSebastianDP/Appnodejs#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.37"
+  },
+  "devDependencies": {
+    "jsonserver": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
